@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std; 
 FILE *fp;
-
 void Counting()
 {
 	 long long CHAR=0,STRING=0,WORD=0,SENTENCE=0;
@@ -35,3 +34,4 @@ int main()
 	 Counting();
  	 fclose(fp);
 }
+
