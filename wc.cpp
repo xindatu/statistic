@@ -22,14 +22,14 @@ void Counting()
 	 }
 	 while(CHAR!=EOF);
 	 WORD++;
-	 cout<<"Ò»¹²ÓÐ:"<<STRING<<"¸ö×Ö·û,"<<WORD<<"¸öµ¥´Ê,"<<SENTENCE<<"¾ä×Ó"<<endl;
+	 cout<<"ä¸€å…±æœ‰:"<<STRING<<"ä¸ªå­—ç¬¦,"<<WORD<<"ä¸ªå•è¯,"<<SENTENCE<<"å¥å­"<<endl;
 }
 
 int main()
 {
   if((fp=fopen("D:\\Documents\\C-Free\\Temp\\file.txt","r"))==NULL)
  {
-   printf("¸ù±¾Ã»ÎÄ¼þºÃ²»ºÃ\n");
+   printf("æ ¹æœ¬æ²¡æ–‡ä»¶å¥½ä¸å¥½\n");
    return 0;
  }
 	 Counting();
